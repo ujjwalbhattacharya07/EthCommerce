@@ -1,0 +1,42 @@
+{
+  "name": "eth-commerce",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.10",
+    "@splinetool/react-spline": "^2.2.5",
+    "@splinetool/runtime": "^0.9.213",
+    "@thirdweb-dev/storage": "^1.0.8",
+    "mongodb": "^5.0.1",
+    "next": "13.1.6",
+    "next-absolute-url": "^1.2.2",
+    "next-progress": "^2.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "wagmi": "^0.11.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.28",
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "jest": "^29.4.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6",
+    "typescript": "4.9.5"
+  }
+}
